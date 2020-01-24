@@ -1,5 +1,5 @@
-RobotFramework RabbitMQ
-=======================
+RobotFramework HTTP RabbitMQ
+============================
 
 |Build Status|
 
