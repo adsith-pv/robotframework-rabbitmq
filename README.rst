@@ -46,7 +46,7 @@ Apache License 2.0
 
 .. _Robot Framework: http://www.robotframework.org
 .. _GitHub: https://adsith-pv.github.io/robotframework-http-rabbitmq/
+.. _robotframework-rabbitmq: https://github.com/peterservice-rnd/robotframework-rabbitmq
 
 .. |Build Status| image:: https://travis-ci.org/adsith-pv/robotframework-http-rabbitmq.svg?branch=master
-   :target: https://travis-ci.org/peterservice-rnd/robotframework-rabbitmq
-.. _robotframework-rabbitmq: https://github.com/peterservice-rnd/robotframework-rabbitmq
+    :target: https://travis-ci.org/adsith-pv/robotframework-http-rabbitmq
