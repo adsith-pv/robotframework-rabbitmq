@@ -3,11 +3,11 @@
 
 from os.path import dirname, join, realpath
 from robot.libdoc import libdoc
-
+import time
 
 DOCS_DIR = dirname(__file__)
 SRC_DIR = realpath(join(DOCS_DIR, '..', 'src'))
-LIB_NAME = 'RabbitMq'
+LIB_NAME = 'RabbitMqHttp'
 
 if __name__ == '__main__':
-    libdoc(join(SRC_DIR, LIB_NAME + '.py'), join(DOCS_DIR, LIB_NAME + '.html'), version='2.0.1')
+    libdoc(join(SRC_DIR, LIB_NAME + '.py'), join(DOCS_DIR, LIB_NAME + '.html'), version='1.0.0')
