@@ -17,13 +17,12 @@ with open(path.join(here, 'requirements.txt')) as f:
     requirements = f.read().splitlines()
 
 setup(
-    name='robotframework-rabbitmq',
-    version='3.0.1',
+    name='robotframework-http-rabbitmq',
+    version='1.0.0',
     description='A Robot Framework RabbitMq Library',
     long_description=long_description,
-    url='https://github.com/peterservice-rnd/robotframework-rabbitmq',
-    author='JSC PETER-SERVICE',
-    author_email='drse_aist_all@billing.ru',
+    url='https://github.com/adsith-pv/robotframework-http-rabbitmq',
+    author='Carlos Alvarez',
     license='Apache License 2.0',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -34,8 +33,8 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Framework :: Robot Framework :: Library',
     ],
-    keywords='testing testautomation robotframework rabbitmq amqp',
+    keywords='testing testautomation robotframework rabbitmq http',
     package_dir={'': 'src'},
-    py_modules=['RabbitMq'],
+    py_modules=['RabbitMqHttp'],
     install_requires=requirements,
 )

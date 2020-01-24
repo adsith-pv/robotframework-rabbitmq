@@ -1,12 +1,13 @@
-RobotFramework RabbitMQ
-=======================
+RobotFramework HTTP RabbitMQ
+============================
 
 |Build Status|
 
 Short Description
 -----------------
 
-`Robot Framework`_ library for for working with RabbitMQ.
+`Robot Framework`_ library for for working with RabbitMQ via Management HTTP API.
+Based on `robotframework-rabbitmq`_ 
 
 Installation
 ------------
@@ -15,7 +16,7 @@ Install the library from PyPI using pip:
 
 ::
 
-    pip install robotframework-rabbitmq
+    pip install robotframework-http-rabbitmq
 
 Documentation
 -------------
@@ -44,7 +45,8 @@ License
 Apache License 2.0
 
 .. _Robot Framework: http://www.robotframework.org
-.. _GitHub: https://rawgit.com/peterservice-rnd/robotframework-rabbitmq/master/docs/RabbitMq.html
+.. _GitHub: https://adsith-pv.github.io/robotframework-http-rabbitmq/
 
-.. |Build Status| image:: https://travis-ci.org/peterservice-rnd/robotframework-rabbitmq.svg?branch=master
+.. |Build Status| image:: https://travis-ci.org/adsith-pv/robotframework-http-rabbitmq.svg?branch=master
    :target: https://travis-ci.org/peterservice-rnd/robotframework-rabbitmq
+.. _robotframework-rabbitmq: https://github.com/peterservice-rnd/robotframework-rabbitmq
