@@ -1,4 +1,4 @@
-"""Setup module for Robot Framework RabbitMq Library package."""
+"""Setup module for Robot Framework RabbitMq Http Library package."""
 
 # To use a consistent encoding
 from codecs import open
@@ -9,7 +9,7 @@ from setuptools import setup
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
+with open(path.join(here, 'README.rst')) as f:
     long_description = f.read()
 
 # Get install requires from requirements.txt
@@ -18,11 +18,12 @@ with open(path.join(here, 'requirements.txt')) as f:
 
 setup(
     name='robotframework-http-rabbitmq',
-    version='1.0.1',
+    version='1.0.3',
     description='A Robot Framework RabbitMq Library',
     long_description=long_description,
     url='https://github.com/adsith-pv/robotframework-http-rabbitmq',
     author='Carlos Alvarez',
+    author_email='c.alvarez@payvision.com',
     license='Apache License 2.0',
     classifiers=[
         'Development Status :: 5 - Production/Stable',

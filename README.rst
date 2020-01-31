@@ -26,10 +26,10 @@ See keyword documentation for RabbitMQ library on `GitHub`_.
 Example
 -------
 
-.. code:: robotframework
+.. code-block::
 
     *** Settings ***
-    Library    RabbitMq
+    Library    RabbitMqHttp
     Library    Collections
 
     *** Test Cases ***
@@ -45,7 +45,7 @@ License
 Apache License 2.0
 
 .. _Robot Framework: http://www.robotframework.org
-.. _GitHub: https://adsith-pv.github.io/robotframework-http-rabbitmq/
+.. _GitHub: https://adsith-pv.github.io/robotframework-http-rabbitmq
 .. _robotframework-rabbitmq: https://github.com/peterservice-rnd/robotframework-rabbitmq
 
 .. |Build Status| image:: https://travis-ci.org/adsith-pv/robotframework-http-rabbitmq.svg?branch=master
