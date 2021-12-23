@@ -638,7 +638,7 @@ class RabbitMqHttp():
         | vhost | / |
         ${value} = testQueue
         """
-        path = '/queues/{vhost}/{quote}'.format(
+        path = '/queues/{vhost}/{queue}'.format(
             vhost=self._quote_vhost(vhost) or self.http_connection.default_vhost,
             queue=quote(queue_name))
 
